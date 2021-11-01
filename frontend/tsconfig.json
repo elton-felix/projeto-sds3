@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src", //orientar o typscript que todos o imports que vamos fazer , vai estar dentro dessa pasta
     "target": "es5",
     "lib": [
       "dom",
