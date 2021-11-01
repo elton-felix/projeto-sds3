@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+/*mudando a font da pagina*/
+:root {/*definindo variavel gloal com a cor da aplicação*/
+    --color-primary: #FF8400;
+}
+
+html, body {
+    height: 100%;/*mudando a altura das tags*/
+    font-family: "Ubuntu", sans-serif;/*informando a font a ser usada*/
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.bg-primary {/*mudando a cor do padrão do background bootstrap para a varial color-primary */
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary {/*mudando a cor do text do padrão do bootstrap para a varial color-primary*/
+    color: var(--color-primary) !important;
+}
